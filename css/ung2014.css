@@ -34,10 +34,11 @@ ol.list-unstyled li {
 	color: #b11116;
 	text-transform: uppercase;
 	font-weight: bold;
+	list-style-type: circle;
+	list-style-image: url('/img/dot-25.png');
+
 }
 p,
 ol {
 	clear: both;
-	list-style-type: circle;
-	list-style-image: url('/img/dot-25.png');
 }
