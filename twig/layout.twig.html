@@ -1,0 +1,33 @@
+{% spaceless %}
+<!DOCTYPE html>
+<html lang="en" ng-app>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>{% block title %}Ung 2014{% endblock %}</title>
+		{% block opengraph %}{% endblock %}
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="description" content="" />
+		<meta name="author" content="UNG 2014" />
+
+		<link rel="icon" type="image/png" href="/img/favicon.png">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+		
+		<link rel="stylesheet" href="/css/ung2014.css">
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+		<script>{% block script %}{% endblock %}</script>
+		<style type="text/css">{% block style %}{% endblock %}</style>
+		
+		<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-46216680-10"]);_gaq.push(["_trackPageview"]);(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://":"http://")+"stats.g.doubleclick.net/dc.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()</script>
+	</head>
+	
+	<body>
+		<div id="logo">
+			<img src="/img/ung2014.png" />
+		</div>
+	</body>
+</html>
+{% endspaceless %}
