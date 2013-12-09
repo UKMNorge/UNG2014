@@ -1,3 +1,43 @@
 body {
 	background: #a7edd3;
+  font-family: 'Open Sans';
+}
+
+#logo {
+	padding: 10px 0px 20px 0px;
+}
+
+#about {
+	border: 2px solid #b11116;
+	border-left: none;
+	border-right: none;
+	font-size: 20px;
+	color: #b11116;
+	text-transform: uppercase;
+}
+#about #time {
+	text-align: right;
+}
+
+h1 {
+	border: 2px solid #b11116;
+	border-left: none;
+	border-right: none;
+	color: #b11116;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+ol.list-unstyled li {
+	float: left;
+	margin: 0px 10px 0px 10px;
+	color: #b11116;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+p,
+ol {
+	clear: both;
+	list-style-type: circle;
+	list-style-image: url('/img/dot-25.png');
 }
