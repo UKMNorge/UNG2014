@@ -28,15 +28,21 @@ h1 {
 	text-align: center;
 }
 
-ol.list-unstyled li {
+#kjerneverdier li {
 	float: left;
-	margin: 0px 10px 0px 10px;
+	margin: 0px 30px 0px 10px;
 	color: #b11116;
 	text-transform: uppercase;
 	font-weight: bold;
 	list-style-type: circle;
-	list-style-image: url('/img/dot-25.png');
+	list-style-image: url('/img/dot-15.png');
+height: 40px;
+font-size: 20px;
+}
 
+#kjerneverdier {
+margin-top: -20px;
+	text-align: center;
 }
 p,
 ol {
