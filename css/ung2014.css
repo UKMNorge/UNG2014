@@ -1,6 +1,7 @@
 body {
 	background: #a7edd3;
   font-family: 'Open Sans';
+ font-size: 16px;
 }
 
 #logo {
@@ -26,6 +27,7 @@ h1 {
 	color: #b11116;
 	text-transform: uppercase;
 	text-align: center;
+        margin-top: 50px;
 }
 
 #kjerneverdier li {
@@ -40,6 +42,20 @@ height: 40px;
 font-size: 20px;
 }
 
+ol.redbull li {
+	margin: 0px 30px 0px 10px;
+	color: #b11116;
+	font-weight: bold;
+	list-style-type: circle;
+	list-style-image: url('/img/dot-15.png');
+font-size: 26px;
+}
+ol.redbull li p {
+ color: #000;
+ font-weight: normal;
+ font-size: 16px;
+}
+
 #kjerneverdier {
 margin-top: -20px;
 	text-align: center;
@@ -47,4 +63,13 @@ margin-top: -20px;
 p,
 ol {
 	clear: both;
+}
+.kuler {
+ margin-top: -10px;
+ width: 100%;
+ padding-top: 35%;
+}
+#kule1 {
+background: url('/img/kuler-1.png') no-repeat;
+background-size: contain;
 }
