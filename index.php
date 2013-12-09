@@ -1,7 +1,7 @@
 <?php
 session_start();
 error_reporting(E_ALL);
-ini_set('display_errors', 1);
+ini_set('display_errors', true);
 
 require_once('vendor/autoload.php');
 require_once('UKM/sql.class.php');
@@ -26,4 +26,6 @@ $TWIG = array('url' => $url);
 
 $app->get('/', function() use($app, $TWIG) {
 	return $app['twig']->render( 'frontpage.twig.html', $TWIG );
-}); 
+});
+
+$app->run();
