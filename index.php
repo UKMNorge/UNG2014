@@ -28,4 +28,8 @@ $app->get('/', function() use($app, $TWIG) {
 	return $app['twig']->render( 'frontpage.twig.html', $TWIG );
 });
 
+$app->get('/nasjonalt-fagseminar/', function() use($app, $TWIG) {
+	return $app['twig']->render( 'fagseminar.twig.html', $TWIG );
+});
+
 $app->run();

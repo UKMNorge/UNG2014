@@ -77,3 +77,13 @@ background-size: contain;
 background: url('/img/kuler-2.png') no-repeat;
 background-size: contain;
 }
+#readmorecontainer {
+ margin-top: 10px;
+ text-align: center;
+}
+#readmorecontainer a {
+ background: #b11116;
+color: #fff;
+ text-transform: uppercase;
+ margin: 2px 5px 5px 5px;
+}
