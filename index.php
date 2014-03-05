@@ -32,6 +32,10 @@ $app->get('/nasjonalt-fagseminar/', function() use($app, $TWIG) {
 	return $app['twig']->render( 'fagseminar.twig.html', $TWIG );
 });
 
+$app->get('/nasjonalt-fagseminar/10:00', function() use($app, $TWIG) {
+	return $app->redirect('/nasjonalt-fagseminar/');#['twig']->render( 'fagseminar.twig.html', $TWIG );
+});
+
 $app->get('/demo2014/', function() use($app, $TWIG) {
 return $app['twig']->render( 'demo2014.twig.html', $TWIG );
 });
